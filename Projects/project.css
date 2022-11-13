@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=Figtree&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Mukta:wght@200&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=DM+Serif+Display&family=Figtree&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Mukta:wght@200&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=DM+Serif+Display&family=Figtree&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Montserrat:wght@600&family=Mukta:wght@200&family=Paytone+One&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&family=Work+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(35, 35, 66); */
+    background: linear-gradient(to right, whitesmoke 0%, whitesmoke 50%, rgb(12, 12, 79) 50%, rgb(12, 12, 79) 100%);
+    
+}
+.scroll-content{
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    background-color: transparent;
+
+}
+.scroll-content::-webkit-scrollbar{
+    display: none;
+}
+.scroll-content ul li a{
+    color: rgb(210, 202, 202);
+    list-style: none;
+    text-decoration: none;
+
+}
+.scroll-content ul:hover li a {
+    color: rgba(225,225,225, .1);
+}
+.scroll-content ul li:hover a{
+    color: white;
+}
+.scroll-content ul li {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'DM Serif Display', serif;
+    list-style: none;
+    
+}
+.page4-heading{
+    /* color: white; */
+    background: linear-gradient(to right,rgb(12, 12, 79) 0%, rgb(12, 12, 79) 50%, whitesmoke 50%, whitesmoke 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif; 
+}

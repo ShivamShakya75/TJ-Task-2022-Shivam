@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.black-bc{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.page2-content{
+    width: 322px;
+    height: 300px;
+    position: absolute;
+    top: 27%;
+    left: 3%;
+}
+.aboutme-heading{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(250, 189, 20);
+    font-size: 35px;
+    text-align: center;
+}
+.aboutme-lines{
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}

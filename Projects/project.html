@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Projects | Shivam's Portfolio</title>
+</head>
+<body>
+
+    <main>
+        <div class="page4">
+            
+            <div class="scroll-content">
+                 <div class="page4-heading">PROJECTS</div>
+            <ul>
+                <li data-bg="../img/socialmedia.avif">  <a href="https://github.com/ShivamShakya75/SocialApp_Hacktoberfest2022">  Barbaric                  </a></li>
+                <li data-bg="../img/managesystem.avif"> <a href="https://github.com/ShivamShakya75/Management_system">  Management <br> System    </a></li>
+                <li data-bg="../img/news2.jpg">         <a href="https://github.com/ShivamShakya75/NewsWeb">  News Web                  </a></li>
+                <li data-bg="../img/wordcounter.avif">  <a href="https://github.com/ShivamShakya75/word_counter">  Word <br> Counter         </a></li>
+                <li data-bg="../img/myntra.avif">       <a href="https://github.com/ShivamShakya75/myntaclone">  Myntra    </a></li>
+            </ul>
+        </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       
+    <script>
+       const scrollc = document.querySelector(".scroll-content");
+       const li = document.querySelectorAll("li");
+
+       li.forEach(el => {
+           el.addEventListener("mouseover", () => {
+               let bg = el.getAttribute("data-bg");
+               scrollc.style.background = `url(${bg})no-repeat center /cover`;
+           });
+       });
+   </script> 
+</body>
+</html>

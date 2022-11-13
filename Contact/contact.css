@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=DM+Serif+Display&family=Figtree&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Mukta:wght@200&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=DM+Serif+Display&family=Figtree&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Mukta:wght@200&family=Paytone+One&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=DM+Serif+Display&family=Figtree&family=Fredoka+One&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Mukta:wght@200&family=Paytone+One&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Crete+Round&family=DM+Serif+Display&family=Figtree&family=Fredoka+One&family=IM+Fell+English+SC&family=Kanit:wght@800&family=Montserrat:wght@600&family=Mukta:wght@200&family=Paytone+One&family=Quicksand:wght@700&family=Roboto+Slab:wght@700;900&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300;400&family=Varela+Round&family=Work+Sans:wght@700&display=swap');
+
+
+
+
+
+#sidebarmenu{
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 1270px;
+    background-color: #6F77F4;
+    border: 100px solid white;
+    position: absolute;
+    z-index: 20;
+    transform: translateX(-1270px);
+    transition: transform 500ms ease-in-out;
+}
+#sidebarmenu ul li {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 2px;
+
+}
+#sidebarmenu ul li a{
+    color: white;
+}
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hori-box{
+    width: 90vw;
+    height: 80vh;
+    background-color: #FF6666;
+    
+}
+.stranger{
+    font-size: 35px;
+    font-family: 'DM Serif Display', serif;
+    color: #362e2e;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 38%;
+}
+.intro-contact{
+    
+    font-size: 75px;
+    font-weight: bolder;
+    color: whitesmoke;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    left: 34%;
+    
+    
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondpage
+{
+    height: 90vh;
+    width: 80vw;
+}
+.title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 70px;
+
+}
+.drop{
+    font-family: 'Kanit', sans-serif;
+    font-size: 70px;
+    margin-top: -35px;
+    
+}
+.big-text
+{
+margin-top: 100px;
+}
+.contact{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.bolder{
+    font-family: 'Fredoka One', cursive;
+}
+
+.page3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(234, 230, 216);
+    display: flex;
+}
+.form{
+    /* border: 2px solid black; */
+    width: 55vw;
+    height: 100vh;
+    float: left;
+}
+.photo{
+    width: 45vw;
+    height: 100vh;
+    float: left;
+}
+.hori-line{
+    height: 2px;
+    width: 51vw;
+    background-color: black;
+    margin-top: 6.7%;
+    margin-left: 4vw;
+    
+}
+.vertical-line{
+   width: 2px; 
+   height: 68.8vh;
+   margin-left: 4vw;
+   background-color: black;
+   
+}
+
+.inputs{
+    
+    
+    /* grid-row: 2; */
+    /* columns: 2; */
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+}
+.inputs2alone{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+form{
+    
+    width: 44.5vw;
+    height: 285px;
+    position: absolute;
+    top: 240%;
+    left: 52.2vw;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 80px;
+margin-left: 4vw;
+margin-top: 8vh;
+}
+.inputdesign{
+    position: relative;
+    width: 250px;
+}
+
+.inputdesign input{
+    width: 100%;
+    padding: 10px;
+    /* border: 2px solid rgb(248, 236, 197); */
+    border: 2px solid #000;
+    background-color: rgb(234, 230, 216);
+    outline: none;
+    color: black;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.inputdesign span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    transition: 0.5s;
+    color: #000;
+
+}
+.inputdesign input:valid ~ span,
+.inputdesign input:focus ~ span{
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.80em;
+    padding: 0 10px;
+    background-color: rgb(234, 230, 216);
+    border-left: 2px solid #7B3F00;
+    border-right: 2px solid #7B3F00;
+    letter-spacing: 0.2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    color: #7B3F00;
+
+}
+.inputdesign input:valid,
+.inputdesign input:focus
+{
+    border: 2px solid #7B3F00;
+}
+
+/*               T E X T A R E A       A N I M A T I O N              */
+
+.textarea{
+    position: relative;
+    width: 468px;
+margin-left: 39.5px;
+margin-top: 10px;
+    
+}
+.textarea textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(234, 230, 216);
+    color: black;
+    font-size: 1em;
+    transition: 0.5s;
+
+}
+.textarea span
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: black;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+.textarea textarea:valid ~ span,
+.textarea textarea:focus ~ span
+{
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.80em;
+    padding: 0 10px;
+    background-color: rgb(234, 230, 216);;
+    border-left: 2px solid #7B3F00;
+    border-right: 2px solid #7B3F00;
+    color: #7B3F00;
+    letter-spacing: 0.2em;
+    font-weight: bolder;
+
+}
+.textarea textarea:valid,
+.textarea textarea:focus
+{
+    border: 2px solid #7B3F00;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    border: 1.5px solid rgb(234, 230, 216);
+    border-radius: 35px;
+    color: rgb(234, 230, 216);
+    background-color: #000;
+    font-size: 17px;
+}
+.button-container{
+
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 35px;
+}
+.container-submit{
+    display: flex;
+    justify-content: center;
+}
+.sector{
+    width: 447px;
+    margin-top: 4px;
+    height: auto;
+    /* border: 2px solid black; */
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page7{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+.upperfooter{
+    display: flex;
+    margin-left: 70px;
+    border-top: 50px solid black;
+
+}
+.yellow-line{
+    width: 7px;
+    height: 60px;
+    background-color: #f5c15d;
+    margin-left: 20px;
+
+}
+.ml50{
+    margin-left: 100px;
+
+}
+.bt5{
+    border-top: 0.2px solid black;
+}        
+.socialize{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 23px;
+    border-top: 80px solid black ;
+
+}   
+.socialize a{
+    color: white;
+}
+.ml15{
+    margin-left: 25px;
+}      
+.sign{
+    display: flex;
+    justify-content: center;
+    font-family: 'Comforter Brush', cursive;
+    border: 20px solid black;
+    font-size: 20px;
+}
+.socialize-animation:hover{
+    transform: translateY(-5px);
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 160px #fff;
+}
